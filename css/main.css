@@ -1,7 +1,6 @@
 /*global-css*/
 
 
-
 .display-inline-block{
 	display: inline-block;
 }
@@ -122,23 +121,23 @@ header:hover{
 }
 
 #diveee{
-        width: 100%;
-    height: 2px;
-    background-color: #fff;
-    margin-bottom: 2px;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	margin-bottom: 2px;
 }
 
 #divee{
-	        width: 100%;
-    height: 2px;
-    background-color: #fff;
-    margin-bottom: 10px;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	margin-bottom: 10px;
 }
 
 
-#betweendiv{
-	vertical-align: center;
-	
+#dddd{
+	color: #fff;
+	left: 37%;
 }
 
 /*fonii*/
@@ -194,16 +193,93 @@ body {
 /*fonii*/
 
 
-.firstarticle{
-	width: 500px;
+#dfdfdf{
+	margin-left: 50px;
 
 }
 
-#articleimage1{
-	width: 158px;
-	padding-bottom: 110px;
+#dfdfdf article{
+	width: 400px;
+	height: 255px;
+	margin-top: 30px;
+	margin-right: 20px;
 }
 
-.firstarticle, h1{
+#dfdfdf article p{
+	margin-top: 213px;
+	font-size: 23px;
+}
+
+#dfdfdf article a{
 	color: #fff;
+	font-weight: bold;
 }
+#firstarticle{
+	background-image: url("https://www.sciencedaily.com/images/2018/12/181213142128_1_540x360.jpg");
+	background-repeat: no-repeat;
+	background-size: 400px;
+	opacity: 0.9;
+}
+#firstarticle:hover{
+	opacity: 0.6;
+}
+
+#secondarticle{
+	background-image: url("https://www.sciencedaily.com/images/2018/12/181205133939_1_540x360.jpg");
+	background-repeat: no-repeat;
+	background-size: 463px;
+	opacity: 0.9;
+}
+#secondarticle:hover{
+	opacity: 0.6;
+}
+#thirdarticle a{
+	font-size: 18px;
+}
+
+#thirdarticle{
+	background-image: url("https://www.sciencedaily.com/images/2018/12/181205093716_1_540x360.jpg");
+	background-repeat: no-repeat;
+	background-size: 400px;
+	opacity: 0.9;
+}
+#thirdarticle:hover{
+	opacity: 0.6;
+}
+
+.view-footer{
+	text-align: right;
+    margin-top: 2rem;
+    margin-right: 100px;
+}
+
+#white{
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+	background-color: #fff;
+
+}
+
+
+#firstarticle1{
+	background-image: url("http://www.physics.org/UploadDocs/Feature/images/plasma187.jpg");
+	background-repeat: no-repeat;
+	background-size: 400px;
+	opacity: 0.9;
+}
+
+#secondarticle2{
+	background-image: url("http://www.physics.org/UploadDocs/Feature/images/universe187.jpg");
+	background-repeat: no-repeat;
+	background-size: 463px;
+	opacity: 0.9;
+}
+
+#thirdarticle3{
+	background-image: url("http://www.physics.org/UploadDocs/Feature/images/crabnebula187.jpg");
+	background-repeat: no-repeat;
+	background-size: 400px;
+	opacity: 0.9;
+}
+

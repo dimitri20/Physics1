@@ -27,7 +27,7 @@
 /*end-of-global-css*/
 
 
-/*header*/
+/*headerstart*/
 
 #logoimage{
 	width: 180px;
@@ -139,8 +139,21 @@ header:hover{
 	color: #fff;
 	left: 37%;
 }
+#ddddd{
+	color: #000;
+	left: 34%;
+}
 
-/*fonii*/
+#dddd1{
+	color: #000;
+	left: 40%;
+
+
+}
+
+
+
+/*foniistart*/
 @-webkit-keyframes spin {
 	from {
 		-webkit-transform: rotate(0deg);
@@ -170,13 +183,14 @@ html {
 body {
 	background-color: #111;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 /* Space */
 .space {
 	position: absolute;
-	width: 400vw;
-	height: 400vh;
+	width: 500vw;
+	height: 600vh;
 	top: 50%;
 	left: 50%;
 	margin-top: -200vh;
@@ -190,7 +204,7 @@ body {
 	background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8yIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDI0MCAyNDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0MCAyNDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxyZWN0IHg9IjEwNiIgeT0iOTAiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz48cmVjdCB4PSI3NCIgeT0iNjMiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIyMyIgeT0iNjYiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSI1MCIgeT0iMTEwIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iNjMiIHk9IjEyOCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjQ1IiB5PSIxNDkiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSI5MiIgeT0iMTUxIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iNTgiIHk9IjgiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxNDciIHk9IjMzIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIi8+PHJlY3QgeD0iOTEiIHk9IjQzIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iMTY5IiB5PSIyOSIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjE4MiIgeT0iMTkiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxNjEiIHk9IjU5IiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iMTM4IiB5PSI5NSIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjE5OSIgeT0iNzEiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIzIiBoZWlnaHQ9IjMiLz48cmVjdCB4PSIyMTMiIHk9IjE1MyIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjIiIGhlaWdodD0iMiIvPjxyZWN0IHg9IjEyOCIgeT0iMTYzIiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIi8+PHJlY3QgeD0iMjA1IiB5PSIxNzQiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxNTIiIHk9IjIwMCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjxyZWN0IHg9IjUyIiB5PSIyMTEiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiLz48cmVjdCB5PSIxOTEiIGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiLz48cmVjdCB4PSIxMTAiIHk9IjE4NCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjEiIGhlaWdodD0iMSIvPjwvc3ZnPg==);
 }
 
-/*fonii*/
+/*foniiend*/
 
 
 #dfdfdf{
@@ -249,37 +263,183 @@ body {
 
 .view-footer{
 	text-align: right;
-    margin-top: 2rem;
-    margin-right: 100px;
+	margin-top: 2rem;
+	margin-right: 100px;
 }
 
 #white{
 	width: 100%;
-	height: 500px;
+	height: 400px;
 	margin-top: 50px;
-	background-color: #fff;
+	
+
+}
+#explore{
+	background-color: #bfbfbf;
+	padding-top: 1px;
+	padding-bottom: 45px;
+	margin-top: 25px;
+}
+
+#white{
+	margin-left: 50px;
 
 }
 
+#white article{
+	width: 400px;
+	height: 255px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+#white p {
+	margin-top: 260px;
+	font-size: 23px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #000;
+}
+#white a:visited{
+	color:#000;
+
+}
 
 #firstarticle1{
-	background-image: url("http://www.physics.org/UploadDocs/Feature/images/plasma187.jpg");
+	background-image: url("https://www.iter.org/img/resize-900-90/www/content/com/Lists/Mag%20Stories/Attachments/18/kstar_plasma_3.jpg");
 	background-repeat: no-repeat;
-	background-size: 400px;
-	opacity: 0.9;
+	background-size: 479px;
+	background-position: center;
+	
+	
 }
 
+#firstarticle1:hover{
+	opacity: 0.9;
+
+}
+
+
+
 #secondarticle2{
-	background-image: url("http://www.physics.org/UploadDocs/Feature/images/universe187.jpg");
+	background-image: url("https://theblogofthecosmos.files.wordpress.com/2016/08/you-are-here2.jpg?w=676&h=458");
 	background-repeat: no-repeat;
-	background-size: 463px;
+	background-size: 400px;
+	background-position: center;
+	background-color: #000;
+	
+}
+#secondarticle2:hover{
 	opacity: 0.9;
 }
 
 #thirdarticle3{
-	background-image: url("http://www.physics.org/UploadDocs/Feature/images/crabnebula187.jpg");
+
+	background-image: url("http://astrog80.astro.cf.ac.uk/multiwavelength-universe/images/visible/crab_vis_vlt.jpg");
 	background-repeat: no-repeat;
 	background-size: 400px;
+	background-position: center;
+	background-color: #000;
+
+}
+#thirdarticle3:hover{
 	opacity: 0.9;
 }
 
+
+
+#gallery{
+	margin-top:50px;
+	background-color: #336e7b;
+	width: 100%;
+	opacity: 0.9;
+	
+}
+
+#margin-left{
+
+	margin-left: 50px
+
+}
+
+#gallery img{
+	margin-right: 5px;
+}
+
+
+
+#img1{
+	width: 325px;
+}
+#img2{
+	width: 401px;
+}
+#img3{
+	width: 441px;
+}
+#img4{
+	margin-left: -10px;
+	width: 325px;
+}
+#img5{
+	width: 401px;
+}
+#img6{
+	width: 443px;
+}
+
+#divimage1{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-right: 45px;
+}
+#divimage2{
+	text-align: center;
+	margin-right: 45px;
+}
+
+#video{
+	padding-top: 70px;
+	text-align: center;
+	background-color: #000;
+	opacity: 1;
+}
+
+footer {
+	margin-top: 40px;
+	background-color: #9c9c9ccc;
+	padding: 90px 70px 40px 140px;
+}
+
+footer .left {
+
+	width: 50%;
+	text-align: left;
+}
+footer .left a{
+	color:#000;
+}
+
+footer .left a:visited{
+	color:#000;
+}
+footer .right {
+	width: 49%;
+	text-align: right;
+}
+footer .right a{
+	color:#000;
+}
+
+footer .right a:visited{
+	color:#000;
+}
+footer li {
+	margin-right: 15px;
+}
+
+
+
+footer img{
+	width: 25px;
+}

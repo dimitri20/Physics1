@@ -257,6 +257,8 @@
 }
 
 
+/*footerstart*/
+
  footer {
  	margin-top: 5px;
  	background-color: #9c9c9ccc;
@@ -292,3 +294,5 @@
  footer img{
  	width: 25px;
  }
+
+/*footerend*/

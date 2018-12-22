@@ -407,6 +407,9 @@ body {
 	opacity: 1;
 }
 
+
+/*footerstart*/
+
 footer {
 	margin-top: 40px;
 	background-color: #9c9c9ccc;
@@ -445,3 +448,5 @@ footer li {
 footer img{
 	width: 25px;
 }
+
+/*footerend*/

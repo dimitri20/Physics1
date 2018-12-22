@@ -100,6 +100,7 @@
  	padding-bottom:7px;
  	padding-left: 5px;
  	padding-right: 5px;
+
  }
 
  #firstsection a:visited{
@@ -117,8 +118,7 @@
  	text-align: center;
  	padding-top: 77px;
  	padding-bottom: 50px;
-
- 	/*background-color: #aeaeaeae;*/
+ 	background-color: #7f7cde22;
  }
 
  #diveee{
@@ -189,8 +189,8 @@
  /*foniiend*/
 
  #ph{
- 	background-color: #fff;
- 	opacity: 0.6;
+ 	background-color: #bfbfbf;
+ 	opacity: 0.9;
  }
 
  #ph div p{
@@ -202,7 +202,89 @@
  	margin-left: 15px;
  	margin-right: 10px;
  }
- #ph div img{
+ #ph img{
  	width: 340px;
  	bottom: 195px;
+ }
+
+ #bohr img{
+ 	height: 432px;
+ }
+
+ #galileo{
+ 	bottom: 71px;
+ }
+ #galileo img{
+ 	top: -150px;
+
+ }
+
+ #einstein img{
+ 	bottom: 210px;
+
+ }
+
+ #maxwell h1{
+ 	font-size: 1.9rem;
+
+ }
+
+ #maxwell img{
+ 	bottom: 197px;
+ 	height: 475px;
+ }
+
+ #feynman img{
+ 	left: 15px;
+ 	height: 485px;
+ }
+
+#rutherford h1{
+	    font-size: 2rem;
+}
+
+#rutherford img{
+	    top: -218px;
+}
+
+#dirac img{
+	height: 466px;
+	top: -213px;
+}
+
+
+ footer {
+ 	margin-top: 5px;
+ 	background-color: #9c9c9ccc;
+ 	padding: 90px 70px 40px 140px;
+ }
+
+ footer .left {
+
+ 	width: 50%;
+ 	text-align: left;
+ }
+ footer .left a{
+ 	color:#000;
+ }
+
+ footer .left a:visited{
+ 	color:#000;
+ }
+ footer .right {
+ 	width: 49%;
+ 	text-align: right;
+ }
+ footer .right a{
+ 	color:#000;
+ }
+
+ footer .right a:visited{
+ 	color:#000;
+ }
+ footer li {
+ 	margin-right: 15px;
+ }
+ footer img{
+ 	width: 25px;
  }

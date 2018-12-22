@@ -193,6 +193,9 @@
  	opacity: 0.9;
  }
 
+
+
+
  #ph div p{
  	width: 300px;
  	text-align: left;
@@ -201,6 +204,7 @@
  #ph div{
  	margin-left: 15px;
  	margin-right: 10px;
+ 	margin-bottom: -100px;
  }
  #ph img{
  	width: 340px;

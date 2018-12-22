@@ -52,17 +52,18 @@ nav a{
 	color:#fff;
 	font-size: 16px;
 	margin-right: 50px;
-	text-transform: uppercase;
+	text-transform: uppercase;ს
+}
+nav a:visited{
+	color:#fff;
 }
 
 nav a:hover{
 	opacity: 0.5;
-
-}
-
-nav a:visited{
 	color:#fff;
+
 }
+
 input[type=text] {
 	background-color: #7dc82530;
 	border-radius: 10px;
